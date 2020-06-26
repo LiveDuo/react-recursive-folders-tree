@@ -1,0 +1,29 @@
+#app {
+  font-family: FontAwesome;
+}
+
+.folder-container,
+.file,
+.no-items {
+  display: block;
+  padding: 4px 4px 4px 32px;
+}
+
+.folder,
+.file {
+  cursor: pointer;
+}
+
+.no-items {
+  display: none;
+  pointer-events: none;
+}
+
+.file:hover {
+  opacity: 0.5;
+}
+
+.file:before,
+.folder:before {
+  padding-right: 10px;
+}
